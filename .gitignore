@@ -1,0 +1,73 @@
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.so
+*.dylib
+*.dll
+*.egg-info/
+
+
+# Virtual Environments
+*.env
+.venv
+env/
+venv/
+env.bak/
+venv.bak/
+.conda/
+backups/
+defaults/
+*/docs
+# Jupyter Notebook stuff
+.virtual_documents/
+.ipynb_checkpoints/
+
+# Ignore logs
+*.log
+*.tmp
+debug.log
+profile.prof
+*logs/
+#ides
+*.vscode
+.vscode/
+.idea/
+
+
+# OS-Specific Files
+.DS_Store
+.Trash-*
+
+# Ignore build artifacts
+build/
+dist/
+
+# Ignore all files in any directory named debug
+**/debug/*
+
+
+# C compiler stuff
+*.c
+*.so
+*.spec
+
+#windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+
+*.ini.bak
+*.ini
+
+
+#files that are not needed
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
