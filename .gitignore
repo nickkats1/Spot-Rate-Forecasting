@@ -15,7 +15,6 @@ env/
 venv/
 env.bak/
 venv.bak/
-.conda/
 backups/
 defaults/
 */docs
@@ -33,6 +32,12 @@ profile.prof
 *.vscode
 .vscode/
 .idea/
+
+# mlflow files
+mlruns/
+src/
+notebooks/
+
 
 
 # OS-Specific Files
@@ -62,12 +67,3 @@ Desktop.ini
 *.ini
 
 
-#files that are not needed
-*.7z
-*.dmg
-*.gz
-*.iso
-*.jar
-*.rar
-*.tar
-*.zip
