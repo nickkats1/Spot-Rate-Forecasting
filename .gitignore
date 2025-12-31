@@ -35,8 +35,6 @@ profile.prof
 
 # mlflow files
 mlruns/
-src/
-notebooks/
 
 
 
